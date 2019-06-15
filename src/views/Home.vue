@@ -35,7 +35,7 @@ style="height:100%;text-align: left;"
 
   </el-submenu>
 
-  <div class="el-col-24" style="height: 400px"></div>
+
 
 
 </el-menu>
