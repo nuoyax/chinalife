@@ -1,10 +1,9 @@
 # bank
 
 >中国人寿保险理赔共享平台
-<br>
+
 >使用的框架有VUE+Elment UI +VueX+Echarts
-<br>
-Author(English): Robert BuQing
+>Author(English): Robert BuQing
 
 ## Usage
 1. git clone git@github.com:nuoyax/chinalife.git
