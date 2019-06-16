@@ -4,7 +4,7 @@
 
 >使用的框架有VUE+Elment UI +VueX+Echarts
 
->Author(English): Robert BuQing
+>Author(English): BuQing Zang
 
 ## Usage
 1. git clone git@github.com:nuoyax/chinalife.git
