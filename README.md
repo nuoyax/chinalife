@@ -3,6 +3,7 @@
 >中国人寿保险理赔共享平台
 
 >使用的框架有VUE+Elment UI +VueX+Echarts
+
 >Author(English): Robert BuQing
 
 ## Usage
