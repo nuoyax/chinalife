@@ -1,15 +1,24 @@
 # bank
 
-> bank
+>中国人寿保险理赔共享平台
+<br>
 
+## Usage
+1. git clone git@github.com:nuoyax/chinalife.git
+2. open project in WebStorm or another Platform
+3. write something on project and 
+4. choose 'TVS -> git->commit' in dropdown 
+5. click push 
+
+6. tips: WebStorm will add automatically file that you change 
 ## Build Setup
 
-``` bash
+``` bash 
 # install dependencies
 npm install
 
 # serve with hot reload at localhost:8080
-npm run dev
+npm run serve
 
 # build for production with minification
 npm run build
