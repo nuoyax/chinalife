@@ -5,6 +5,7 @@ Vue.use(Vuex)
 const  store=new Vuex.Store({
   state:{
     count:1,
+    userid:11103232,
     result:false
   },
   getters:{

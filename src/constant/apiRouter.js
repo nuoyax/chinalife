@@ -15,7 +15,17 @@ const router=[
           name:"/TaskQuery",
           url:"/task/TaskQuery"
 
-        }]
+        },
+  {
+    name:"/ServiceCreate",
+    url:"/Service/ServiceCreateModel"
+
+  },
+  {
+    name:"/charts",
+    url:"/Home/HomeEcharts"
+  }
+]
 
 
 
