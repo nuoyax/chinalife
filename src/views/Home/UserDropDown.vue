@@ -4,7 +4,7 @@
         {{this.$store.state.userid}}<i class="el-icon-arrow-down el-icon--right"></i>
       </span>
     <el-dropdown-menu slot="dropdown">
-      <el-dropdown-item icon="el-icon-plus">消息</el-dropdown-item>
+      <el-dropdown-item icon="el-icon-plus" command="msg" >消息 <el-badge class="mark" :value="12" /></el-dropdown-item>
       <el-dropdown-item icon="el-icon-circle-plus">狮子头</el-dropdown-item>
       <el-dropdown-item icon="el-icon-circle-plus-outline">螺蛳粉</el-dropdown-item>
       <el-dropdown-item icon="el-icon-check">双皮奶</el-dropdown-item>
@@ -19,11 +19,19 @@
       methods:{
         handleCommand(command){
             let vm=this
-          if(command=="logout") {
 
-            localStorage.setItem("token", "")
-            vm.$router.push("/login")
+          switch (command) {
+            case "msg":
+              vm.$router.push("/msg")
+              break;
+            case "logout":
+              localStorage.setItem("token", "")
+              vm.$router.push("/login")
+              break;
+
+
           }
+
           }
       }
     }
